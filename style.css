@@ -1,0 +1,167 @@
+/*I set the header in the upper left and made is stand out against the background*/ 
+.header{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 40%;
+    height: 10%;
+    font-size: 300%;
+    color: lightgray;
+    flex-shrink: 1;
+}
+/*Here I placed the nav bar in the upper and made it reactive*/ 
+.navigation{
+    position: absolute;
+    top: 10px;
+    right: 1%;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 10%;
+    
+}
+/*This is the container for my about me section,here i chose a dark font to contrast the background.*/
+.main {
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    height: 250px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+
+}
+/*This houses my project tabs and adjusts the size of the main container as well as places it in the center of the page.*/
+.article {
+    position: absolute;
+    left: 15%;
+    bottom: -190%;
+    height: 900px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    font-size: xx-large;
+}
+/*this houses my contact info and sets it at the bottom of the page*/
+.foot{
+    position:absolute;
+    bottom: -210%;
+    width: 300px;
+    height: 125px;
+    left: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    color: lightgrey;
+}
+/*this is for the inner container for the nav bar,sets the size of each bubble.*/
+.nav{
+    background:none;
+    display: flex;
+    border-width: 1px;
+    border-style:solid;
+    justify-content: center;
+    border-radius: 15%;
+    height: 75%;
+    width: 20%;
+    color: lightgray;
+}
+/*This is for the inner article container for the projects sets the size inside the container*/
+.art{
+    display: flex;
+    align-items: center;
+    height: 223px;
+    border-style: solid;
+    border-width: 3px;
+}
+/*adjusts the font size and width in the about me section*/
+h1 {
+    font-size: xx-large;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*gives a gray backgound to the contact info footer*/
+h3{
+    background-color: gray;
+}
+/*this just gives the nav selectors 1/3  a background using an image in the assets*/
+#nav-1{
+background-image: url(./assets/images/silicon.jpg.jpg);
+}
+
+#nav-2{
+background-image: url(./assets/images/silicon.jpg.jpg);
+}
+
+#nav-3{
+background-image: url(./assets/images/silicon.jpg.jpg);
+}
+/*to give color to the font and a background image for the box art on art -1/-3*/
+#art-1{
+    color: lightgray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    background-image: url(./assets/images/horiseon.jpg.png);
+    background-size:cover;
+    
+}
+
+#art-2{
+    color: lightgray;
+    width: 75%;
+    background-image: url(./assets/images/seals.jpg.jpg);
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#art-3{
+    color: lightgray;
+    width: 50%;
+    background-image: url(.//assets/images/silicon.jpg.jpg);
+    display: flex;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+/* creates the hover state of highlighting text and border for each art and nave section with the a tag*/
+#art-1:hover{
+    color: lightcyan;
+    box-shadow: black;
+}
+#art-2:hover {
+    color: lightcyan;
+}
+#art-3:hover {
+    color: lightcyan;
+}
+a:hover {
+    color: antiquewhite;
+}
+/*picture of an avatar that I use*/
+#obelisk {
+    display: flex;
+    flex-shrink: 1;
+    position: absolute;
+    left: 45%;
+    height: 120px;
+    width: 100px;
+}
+/*my background image*/
+#saguaro {
+    display: flex;
+    height: 1900px;
+    width: 2000px;
+}
