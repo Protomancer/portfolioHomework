@@ -4,37 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link rel="stylesheet" href="style.css"> 
     <title>PinkertonPortfolio</title>
 </head>
-<body class="body">
-    <header class="header">
-        Pinkertons Portfolio
-    </header>
-    <nav class="navigation" id="navigate">
-        <a href="#aboutMe" class="nav" id="nav-1">About Me</a>
-        <a href="#art-1" class="nav" id="nav-2">Projects</a>
-        <a href="#foot-1" class="nav" id="nav-3">Contact</a>
-    </nav>
-    <img src="./assets/images/Obelisk.jpg.jpg" alt="An image of a stone obelisk with a skull on it,representing Billy Pinkertons avatar online" id="obelisk">
-    <img src="./assets/images/Saguaro.jpg.jpg" alt="The background image is a pair of Sonoran Saguaros with a backdrop of the sky" id="saguaro">
-    <main class="main">
-        <h1 id="aboutMe">
-            About me:   
-            Hello, 
-            My name is Scott "Billy" Pinkerton. I am currently a rock climbing instructor for Gripstone Climbing in Prescott, AZ. I am also currently attending The UofA coding boot camp in hope of changing my path in life. Below you will find link to my projects and more will be added in time. Have a great day today!
-        </h1>
-    </main>
-    <article class="article">
+<body class="body grey">
 
-            <a href="https://protomancer.github.io/refactorHomeworkOne/" class="art" id="art-1"> Project: Site Refactor</a>
-            <a class="art" id="art-2">Coming soon....</a>
-            <a class="art" id="art-3">Coming a little later.</a>
-
-    </article>
-    <footer class="foot">
-            <h3 class="footer" id="foot-1">Email:billybattlebones@gmail.com</h3>
-            <h3 class="footer" id="foot-2">GitHub:Protomancer.</h3> 
-    </footer>
+<nav>
+    <div class="nav-wrapper blue darken-4 z-depth-4">
+      <a href="#" class="brand-logo">Billy Pinkertons Portfolio</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">Something here</a></li>
+      </ul>
+    </div>
+</nav>
+ <div class="card small z-depth-4">
+    <div class="card-image waves-effect waves-block waves-light grey">
+      <img class="activator" src="./assets/images/Saguaro.jpg.jpg">
+    </div>
+    <div class="card-content blue-grey">
+      <span class="card-title activator grey-text text-lighten-3">My first Group Project</span>
+      <p><a href="https://matthewestes33.github.io/project-1-group-4/">WildFire AQI Tracker</a></p>
+    </div>
+    <div class="card-reveal blue-grey">
+      <span class="card-title grey-text text-lighten-4">WildFire AQI Tracker<i class="waves-effect waves-light btn right red lighten-2 black-text z-depth-2 text-darken-4" id="close-button">close</i></span>
+      <p>This is the first group project that i was able to take part in. We went through many idea and many api's 
+          to finally come to agreement on an api that tracks the air quality in a region around a tracked wildfire.
+           Its still a work in progress but I am proud of it. </p>
+    </div>
+  </div>
+  <div class="card small z-depth-4">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="./assets/images/silicon.jpg.jpg">
+    </div>
+    <div class="card-content blue-grey">
+      <span class="card-title activator grey-text text-lighten-3">A difficult homework assignment</span>
+      <p><a href="https://protomancer.github.io/weather-tracker/">Weather Tracker</a></p>
+    </div>
+    <div class="card-reveal blue-grey">
+      <span class="card-title grey-text text-lighten-4">Weather Tracker<i class="waves-effect waves-light btn right red lighten-2 black-text z-depth-2 text-darken-4" id="close-button">close</i></span>
+      <p>This was a homework project that I struggled with for a while. I ended up following alot of you tube channels and referencing alot of websites to eventually figure out the best way to run it. I have much more to work on here, I plan to improve it and make a few things work a bit smoother.</p>
+    </div>
+  </div>
+  <footer class="page-footer blue">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Contact info:</h5>
+          <p class="grey-text text-lighten-4"></p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Follow my art and gaming page!</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" id="insta-link" href="https://www.instagram.com/stoneandbonesociety/">@stoneandbonesociety</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="./script.js"></script>
 </body>
 </html>
